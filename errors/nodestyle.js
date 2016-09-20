@@ -7,4 +7,4 @@ function nodeStyleCallback(err, data) {
   console.log(data);
 }
 fs.readFile('/some/file/that/does-not-exist', 'utf8', nodeStyleCallback);
-fs.readFile('text.txt', 'utf8', nodeStyleCallback)
+//fs.readFile('text.txt', 'utf8', nodeStyleCallback)
